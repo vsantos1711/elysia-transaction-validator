@@ -1,7 +1,7 @@
 import { Elysia } from "elysia";
 
-const app = new Elysia().get("/", () => "Hello Elysia").listen(3333);
+const app = new Elysia().get("/", () => "ANTI-FRAUD MICROSERVICE").listen(3003);
 
 console.log(
-  `🪼  Anti-fraud microservice is running at ${app.server?.hostname}:${app.server?.port}`
+  `🪼  Anti-fraud microservice is UP at ${app.server?.hostname}:${app.server?.port}`
 );
