@@ -1,30 +1,23 @@
 import { Elysia } from "elysia";
-import { consumer, producer, setupConsumers, setupProducers } from "./kafka";
+import { consumer, setupConsumers, setupProducers } from "./kafka";
+import { verifyTransaction } from "./service/verify-transaction";
 
 await setupConsumers();
 await setupProducers();
 
-async function send() {
-  await producer.send({
-    topic: "anti-fraud",
-    messages: [{ value: "AQUI EU RETORNO O NOVO STATUS DA TRANSACTION" }],
-  });
-}
-
 await consumer.run({
   eachMessage: async ({ topic, partition, message }) => {
-    console.log({
-      value: message.value?.toString(),
-      text: "AQUI EU VERIFICO A TRANSACTION!",
-    });
-    await send();
+    const transaction = JSON.parse(message.value?.toString() || "{}");
+    await verifyTransaction(transaction);
   },
 });
 
-const app = new Elysia().get("/", () => "ANTI-FRAUD SERVICE").listen(3333);
+const app = new Elysia()
+  .get("/", () => "ANTI-FRAUD SERVICE IS UP!")
+  .listen(3333);
 
 console.log(`
 ==================================================================================
-🪼  Anti-fraud microservice is UP at ${app.server?.hostname}:${app.server?.port}
+🧊  Anti-fraud microservice is UP at ${app.server?.hostname}:${app.server?.port}
 ==================================================================================
 `);
