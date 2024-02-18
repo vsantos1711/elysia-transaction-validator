@@ -1,5 +1,5 @@
 {
-  "id": "8acbf7e7-e5a0-4b32-9a73-e83c18e8e339",
+  "id": "381ace26-e605-4952-8e72-a3445ae2bb18",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "5",
   "dialect": "pg",
@@ -12,31 +12,31 @@
           "name": "account_external_id_debit",
           "type": "varchar",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "account_external_id_credit": {
           "name": "account_external_id_credit",
           "type": "varchar",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "transferTypeId": {
           "name": "transferTypeId",
           "type": "integer",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "status": {
           "name": "status",
           "type": "varchar",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "value": {
           "name": "value",
           "type": "integer",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         }
       },
       "indexes": {},
