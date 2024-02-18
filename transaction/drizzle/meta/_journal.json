@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1708279295205,
+      "tag": "0000_classy_stark_industries",
+      "breakpoints": true
+    }
+  ]
+}

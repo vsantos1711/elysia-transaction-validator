@@ -1,0 +1,70 @@
+{
+  "id": "8acbf7e7-e5a0-4b32-9a73-e83c18e8e339",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "5",
+  "dialect": "pg",
+  "tables": {
+    "transactions": {
+      "name": "transactions",
+      "schema": "",
+      "columns": {
+        "account_external_id_debit": {
+          "name": "account_external_id_debit",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "account_external_id_credit": {
+          "name": "account_external_id_credit",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "transferTypeId": {
+          "name": "transferTypeId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "status": {
+          "name": "status",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "value": {
+          "name": "value",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "transactions_account_external_id_debit_unique": {
+          "name": "transactions_account_external_id_debit_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "account_external_id_debit"
+          ]
+        },
+        "transactions_account_external_id_credit_unique": {
+          "name": "transactions_account_external_id_credit_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "account_external_id_credit"
+          ]
+        }
+      }
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
