@@ -6,7 +6,8 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "kafkajs": "^2.2.4"
   },
   "devDependencies": {
     "bun-types": "latest"
