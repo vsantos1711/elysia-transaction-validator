@@ -38,6 +38,7 @@ To be able to start development the application make sure that you have the foll
   ```
 
 - Docker and Docker Compose installed
+- [K6 (optional)](https://k6.io/docs/get-started/installation/)
 
 ##
 
@@ -92,3 +93,9 @@ To be able to start development the application make sure that you have the foll
     "value": 1
   }
   ```
+
+## Run k6 test
+
+```bash
+k6 run scripts/k6.js
+```
