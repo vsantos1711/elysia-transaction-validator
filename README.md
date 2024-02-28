@@ -55,7 +55,7 @@ To be able to start development the application make sure that you have the foll
 1. Clone repository:
 
    ```bash
-   git clone https://github.com/vnz4/elysia-transaction-validate.git && cd elysia-transaction-validate
+   git clone https://github.com/vsantos1711/elysia-transaction-validate.git && cd elysia-transaction-validate
    ```
 
 2. Start the Kafka using Docker Compose:
