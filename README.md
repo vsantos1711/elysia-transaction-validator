@@ -64,16 +64,16 @@ To be able to start development the application make sure that you have the foll
    docker compose up
    ```
 
-3. Run the `messages` service:
+3. Run the `anti-fraud` service:
 
    ```bash
-   cd messages && bun install && bun run dev
+   cd anti-fraud && bun install && bun run dev
    ```
 
-4. Run the `notification` service:
+4. Run the `transaction` service:
 
    ```bash
-   cd notification && bun install && bun run dev
+   cd transaction && bun install && bun run dev
    ```
 
    </details>
