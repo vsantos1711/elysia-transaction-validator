@@ -21,6 +21,14 @@ Every transaction with a value greater than 1000 should be rejected.
 <img src="assets/diagram.png" width="700px"/>
 </p>
 
+## :wrench: Tools
+
+[<img src="https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white" />](https://bun.sh/)
+[<img src="https://img.shields.io/badge/Elysia-565656?style=for-the-badge" />](https://elysiajs.com/)
+[<img src="https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka" />](https://kafka.apache.org/)
+[<img src="https://img.shields.io/badge/drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />](https://orm.drizzle.team/)
+[<img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />](https://www.postgresql.org/)
+
 ## How to run
 
 <details open>
