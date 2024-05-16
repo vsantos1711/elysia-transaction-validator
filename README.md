@@ -21,7 +21,7 @@ Every transaction with a value greater than 1000 should be rejected.
 <img src="assets/diagram.png" width="700px"/>
 </p>
 
-## :wrench: Tools
+## Tools
 
 [<img src="https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white" />](https://bun.sh/)
 [<img src="https://img.shields.io/badge/Elysia-565656?style=for-the-badge" />](https://elysiajs.com/)
