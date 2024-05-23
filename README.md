@@ -1,4 +1,5 @@
-# 🐬 Building event-driven systems with Kafka and ElysiaJS
+<!-- Title -->
+<h1 align="center"> 🐬 Building event-driven systems with Kafka and ElysiaJS</h1>
 
 > ⚠️ This repository was created based on [this problem](https://github.com/yaperos/app-nodejs-codechallenge) with the idea to practice using Kafka.
 
