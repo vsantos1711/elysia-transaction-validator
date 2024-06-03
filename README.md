@@ -1,15 +1,12 @@
 <!-- Title -->
-<h1 align="center"> 🐬 Building event-driven systems with Kafka and ElysiaJS</h1>
+<h1> 🐬 Building event-driven systems with Kafka and ElysiaJS</h1>
 
-<p align="center">
-  <!-- Short description -->
- <i align="center"> ⚠️ This repository was created based on <a href="https://github.com/yaperos/app-nodejs-codechallenge">this problem</a> with the idea to practice using Kafka.</i>
-  <div align="center">
-   <img src="https://github.com/elysiajs/elysia/assets/35027979/15653752-866c-4525-99f9-edde0aafc856" alt="ElysiaJS logo with word ElysiaJS on the left" width="340px" />
-   <img src="https://raw.githubusercontent.com/vsantos1711/elysia-transaction-validator/main/assets/kafka-image.png" alt="Apache kafka image" width="410px" />
-  </div>
-</p>
-
+<!-- Short description -->
+<blockquote > ⚠️ This repository was created based on <a href="https://github.com/yaperos/app-nodejs-codechallenge">this problem</a> with the idea to practice using Kafka.</blockquote>
+<div>
+  <img src="https://github.com/elysiajs/elysia/assets/35027979/15653752-866c-4525-99f9-edde0aafc856" alt="ElysiaJS logo with word ElysiaJS on the left" width="400px" />
+  <img src="https://raw.githubusercontent.com/vsantos1711/elysia-transaction-validator/main/assets/kafka-image.png" alt="Apache kafka image" width="485px" />
+</div>
 
 ## Problem
 
