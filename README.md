@@ -5,7 +5,7 @@
 
 <p align=center>
  <img src="https://github.com/elysiajs/elysia/assets/35027979/15653752-866c-4525-99f9-edde0aafc856" alt="ElysiaJS logo with word ElysiaJS on the left" width="340px" />
- <img src="assets/kafka-image.png" alt="Apache kafka image" width="410px" />
+ <img src="https://github.com/vsantos1711/elysia-transaction-validator/blob/main/assets/kafka-image.png" alt="Apache kafka image" width="410px" />
 </p>
 
 ## Problem
@@ -19,7 +19,7 @@ Every time a financial transaction is created it must be validated by our anti-f
 Every transaction with a value greater than 1000 should be rejected.
 
 <p align=center>
-<img src="assets/diagram.png" width="700px"/>
+<img src="https://github.com/vsantos1711/elysia-transaction-validator/blob/main/assets/diagram.png" width="700px"/>
 </p>
 
 ## Tools
