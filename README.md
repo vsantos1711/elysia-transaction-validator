@@ -1,9 +1,10 @@
 <!-- Title -->
 <h1 align="center"> 🐬 Building event-driven systems with Kafka and ElysiaJS</h1>
 
+<!-- Short description -->
 > ⚠️ This repository was created based on [this problem](https://github.com/yaperos/app-nodejs-codechallenge) with the idea to practice using Kafka.
 
-<p align=center>
+<p align="center">
  <img src="https://github.com/elysiajs/elysia/assets/35027979/15653752-866c-4525-99f9-edde0aafc856" alt="ElysiaJS logo with word ElysiaJS on the left" width="340px" />
  <img src="https://raw.githubusercontent.com/vsantos1711/elysia-transaction-validator/main/assets/kafka-image.png" alt="Apache kafka image" width="410px" />
 </p>
