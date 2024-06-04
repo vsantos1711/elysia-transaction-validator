@@ -2,11 +2,13 @@
 <h1> 🐬 Building event-driven systems with Kafka and ElysiaJS</h1>
 
 <!-- Short description -->
-<blockquote > ⚠️ This repository was created with the idea to practice using Kafka.</blockquote>
+<p align="center">
+<i> ⚠️ This repository was created with the idea to practice using Kafka.</i>
 <div>
   <img src="https://github.com/elysiajs/elysia/assets/35027979/15653752-866c-4525-99f9-edde0aafc856" alt="ElysiaJS logo with word ElysiaJS on the left" width="400px" />
   <img src="https://raw.githubusercontent.com/vsantos1711/elysia-transaction-validator/main/assets/kafka-image.png" alt="Apache kafka image" width="485px" />
 </div>
+</p>
 
 ## Problem
 
