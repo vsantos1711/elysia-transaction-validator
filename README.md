@@ -13,9 +13,7 @@ Every time a financial transaction is created it must be validated by our anti-f
 
 Every transaction with a value greater than 1000 should be rejected.
 
-<p align=center>
-<img src="https://raw.githubusercontent.com/vsantos1711/elysia-transaction-validator/main/assets/diagram.png" width="700px"/>
-</p>
+![Frame](https://raw.githubusercontent.com/vsantos1711/elysia-transaction-validator/main/assets/diagram.png)
 
 ## Tools
 
