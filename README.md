@@ -25,11 +25,9 @@ Every transaction with a value greater than 1000 should be rejected.
 
 ## How to run
 
-<details open><summary>Pre-requisites</summary> <br />
+<details open><summary> Pre-requisites </summary> <br />
 To be able to start development the application make sure that you have the following pre-requisites installed:
-
-###
-
+  
 - Bun
   ```bash
   curl -fsSL https://bun.sh/install | bash
@@ -37,16 +35,11 @@ To be able to start development the application make sure that you have the foll
 - Docker and Docker Compose installed
 - [K6 (optional)](https://k6.io/docs/get-started/installation/)
 
-
+---
 </details>
 
-<details open>
-<summary>
-Running the app
-</summary> <br />
+<details open><summary> Running the app </summary> <br />
 To be able to start development the application make sure that you have the following pre-requisites installed:
-
-###
 
 1. Clone repository:
    ```bash
