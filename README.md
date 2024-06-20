@@ -66,6 +66,7 @@ To be able to start development the application make sure that you have the foll
 - **URL:** `/transaction`
 - **Method:** `POST`
 - **Request Body:**
+
   ```json
   {
     "accountExternalIdDebit": "string",
