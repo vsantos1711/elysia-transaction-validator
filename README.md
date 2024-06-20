@@ -31,11 +31,9 @@ To be able to start development the application make sure that you have the foll
 ###
 
 - Bun
-
   ```bash
   curl -fsSL https://bun.sh/install | bash
   ```
-
 - Docker and Docker Compose installed
 - [K6 (optional)](https://k6.io/docs/get-started/installation/)
 
@@ -52,30 +50,22 @@ To be able to start development the application make sure that you have the foll
 ###
 
 1. Clone repository:
-
    ```bash
    git clone https://github.com/vsantos1711/elysia-transaction-validate.git && cd elysia-transaction-validate
    ```
-
 2. Start the Kafka using Docker Compose:
-
    ```bash
    docker compose up
    ```
-
 3. Run the `anti-fraud` service:
-
    ```bash
    cd anti-fraud && bun install && bun run dev
    ```
-
 4. Run the `transaction` service:
-
    ```bash
    cd transaction && bun install && bun run dev
    ```
-
-   </details>
+</details>
 
 ## API Endpoint
 
