@@ -25,10 +25,7 @@ Every transaction with a value greater than 1000 should be rejected.
 
 ## How to run
 
-<details open>
-<summary>
-Pre-requisites
-</summary> <br />
+<details open><summary>Pre-requisites</summary> <br />
 To be able to start development the application make sure that you have the following pre-requisites installed:
 
 ###
