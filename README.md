@@ -15,13 +15,13 @@ Every transaction with a value greater than 1000 should be rejected.
 
 ![Frame](https://raw.githubusercontent.com/vsantos1711/elysia-transaction-validator/main/assets/diagram.png)
 
-## Tools
+## Technologies Used
 
-[<img src="https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white" />](https://bun.sh/)
-[<img src="https://img.shields.io/badge/Elysia-565656?style=for-the-badge" />](https://elysiajs.com/)
-[<img src="https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka" />](https://kafka.apache.org/)
-[<img src="https://img.shields.io/badge/drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />](https://orm.drizzle.team/)
-[<img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />](https://www.postgresql.org/)
+- **[Bun:](https://bun.sh/)** A fast JavaScript runtime that is used for running the `anti-fraud` and `transaction` services.
+- **[Elysia:](https://elysiajs.com/)** A framework used for building the application's web services.
+- **[Apache Kafka:](https://kafka.apache.org/)** The event streaming platform used to handle messaging between services.
+- **[Drizzle:](https://orm.drizzle.team/)** An ORM (Object-Relational Mapping) tool used for interacting with the database.
+- **[PostgreSQL:](https://www.postgresql.org/)** The relational database used for storing transaction data.
 
 ## How to run
 
