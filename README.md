@@ -42,23 +42,19 @@ To be able to start development the application make sure that you have the foll
 To be able to start development the application make sure that you have the following pre-requisites installed:
 
 1. Clone repository:
-
-   ```shell
+   ```bash
    git clone https://github.com/vsantos1711/elysia-transaction-validate.git && cd elysia-transaction-validate
    ```
 2. Start the Kafka using Docker Compose:
-
-   ```shell
+   ```bash
    docker compose up
    ```
 3. Run the `anti-fraud` service:
-
-   ```shell
+   ```bash
    cd anti-fraud && bun install && bun run dev
    ```
 4. Run the `transaction` service:
-
-   ```js
+   ```bash
    cd transaction && bun install && bun run dev
    ```
 </details>
