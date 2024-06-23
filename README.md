@@ -54,7 +54,7 @@ To be able to start development the application make sure that you have the foll
    cd anti-fraud && bun install && bun run dev
    ```
 4. Run the `transaction` service:
-   ```shell
+   ```js
    cd transaction && bun install && bun run dev
    ```
 </details>
