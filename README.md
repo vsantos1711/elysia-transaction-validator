@@ -50,7 +50,7 @@ To be able to start development the application make sure that you have the foll
    docker compose up
    ```
 3. Run the `anti-fraud` service:
-   ```shell
+   ```json
    cd anti-fraud && bun install && bun run dev
    ```
 4. Run the `transaction` service:
